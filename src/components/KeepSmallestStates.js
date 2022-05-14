@@ -21,7 +21,6 @@ function SearchBox({ data }) {
       "",
       `${window.location.pathname}?key=${event.target.value}`
     );
-    console.log(filtered);
   }, []);
 
   return (

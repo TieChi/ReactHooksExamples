@@ -1,8 +1,12 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./styles.css";
 import KeepSmallestStates from "./components/KeepSmallestStates";
+import ArticleView from "./components/ArticleView";
 
-const routes = [["KeepSmallestStates", KeepSmallestStates]];
+const routes = [
+  ["KeepSmallestStates", KeepSmallestStates],
+  ["ArticleView", ArticleView]
+];
 const Empty = () => "";
 export default function App() {
   return (
