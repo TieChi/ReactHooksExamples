@@ -8,8 +8,9 @@ export default (id) => {
     setLoading(true);
     setData(null);
     setError(null);
+    if (!id) return
     apiClient
-      .get(`posts/${id}`)
+      .get(`users/${id}`)
       .then((res) => {
         setLoading(false);
         setData(res.data);

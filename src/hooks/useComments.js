@@ -9,7 +9,7 @@ export default (id) => {
     setData(null);
     setError(null);
     apiClient
-      .get(`posts/${id}`)
+      .get(`/comments`)
       .then((res) => {
         setLoading(false);
         setData(res.data);
