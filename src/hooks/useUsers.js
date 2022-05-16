@@ -8,12 +8,12 @@ export default (id) => {
     setLoading(true);
     setData(null);
     setError(null);
-    if (!id) return;
+
     apiClient
-      .get(`users/${id}`)
+      .get(`users`)
       .then((res) => {
         setLoading(false);
-        setData(res.data);
+        setData(res.data.slice(0, 20));
       })
       .catch((err) => {
         setLoading(false);

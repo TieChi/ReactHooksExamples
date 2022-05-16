@@ -2,10 +2,12 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./styles.css";
 import KeepSmallestStates from "./components/KeepSmallestStates";
 import ArticleView from "./components/ArticleView";
+import ContainerModal from "./components/ContainerModal";
 
 const routes = [
   ["KeepSmallestStates", KeepSmallestStates],
-  ["ArticleView", ArticleView]
+  ["ArticleView", ArticleView],
+  ["ContainerModal", ContainerModal]
 ];
 const Empty = () => "";
 export default function App() {
@@ -15,7 +17,7 @@ export default function App() {
         <Empty />
         <ul className="sider">
           {routes.map(([label]) => (
-            <li>
+            <li key={label}>
               <Link to={`/${label.replace(" ", "/")}`}>{label}</Link>
             </li>
           ))}
