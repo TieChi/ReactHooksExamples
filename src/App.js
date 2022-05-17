@@ -3,11 +3,13 @@ import "./styles.css";
 import KeepSmallestStates from "./components/KeepSmallestStates";
 import ArticleView from "./components/ArticleView";
 import ContainerModal from "./components/ContainerModal";
+import ListWithMore from "./components/ListWithMore";
 
 const routes = [
   ["KeepSmallestStates", KeepSmallestStates],
   ["ArticleView", ArticleView],
-  ["ContainerModal", ContainerModal]
+  ["ContainerModal", ContainerModal],
+  ["ListWithMore", ListWithMore]
 ];
 const Empty = () => "";
 export default function App() {
