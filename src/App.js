@@ -4,12 +4,14 @@ import KeepSmallestStates from "./components/KeepSmallestStates";
 import ArticleView from "./components/ArticleView";
 import ContainerModal from "./components/ContainerModal";
 import ListWithMore from "./components/ListWithMore";
+import ToggleButtonExample from "./components/ToggleButtonExample";
 
 const routes = [
   ["KeepSmallestStates", KeepSmallestStates],
   ["ArticleView", ArticleView],
   ["ContainerModal", ContainerModal],
-  ["ListWithMore", ListWithMore]
+  ["ListWithMore", ListWithMore],
+  ["ToggleButtonExample", ToggleButtonExample]
 ];
 const Empty = () => "";
 export default function App() {
