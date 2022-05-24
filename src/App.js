@@ -5,13 +5,15 @@ import ArticleView from "./components/ArticleView";
 import ContainerModal from "./components/ContainerModal";
 import ListWithMore from "./components/ListWithMore";
 import ToggleButtonExample from "./components/ToggleButtonExample";
+import KeyboardEvent from "./components/KeyboardEvent";
 
 const routes = [
   ["KeepSmallestStates", KeepSmallestStates],
   ["ArticleView", ArticleView],
   ["ContainerModal", ContainerModal],
   ["ListWithMore", ListWithMore],
-  ["ToggleButtonExample", ToggleButtonExample]
+  ["ToggleButtonExample", ToggleButtonExample],
+  ["KeyboardEvent", KeyboardEvent]
 ];
 const Empty = () => "";
 export default function App() {
