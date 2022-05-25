@@ -6,6 +6,7 @@ import ContainerModal from "./components/ContainerModal";
 import ListWithMore from "./components/ListWithMore";
 import ToggleButtonExample from "./components/ToggleButtonExample";
 import KeyboardEvent from "./components/KeyboardEvent";
+import FormWithHooks from "./components/FormWithHooks";
 
 const routes = [
   ["KeepSmallestStates", KeepSmallestStates],
@@ -13,7 +14,9 @@ const routes = [
   ["ContainerModal", ContainerModal],
   ["ListWithMore", ListWithMore],
   ["ToggleButtonExample", ToggleButtonExample],
-  ["KeyboardEvent", KeyboardEvent]
+  ["KeyboardEvent", KeyboardEvent],
+  ["FormWithHooks", FormWithHooks]
+
 ];
 const Empty = () => "";
 export default function App() {
