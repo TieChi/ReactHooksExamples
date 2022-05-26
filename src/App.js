@@ -16,7 +16,6 @@ const routes = [
   ["ToggleButtonExample", ToggleButtonExample],
   ["KeyboardEvent", KeyboardEvent],
   ["FormWithHooks", FormWithHooks]
-
 ];
 const Empty = () => "";
 export default function App() {
